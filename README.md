@@ -1,5 +1,5 @@
 # Disease_Model
-![grab-landing-page](https://github.com/Olaya-Sib/Disease_Model/blob/main/disease_animation.gif)
+![grab-landing-page](https://github.com/Olaya-Sib/Disease_Model/blob/507820e965fa9e995c60efebe26dfcccc7be7509/disease_animation.gif)
 Dependencies: pygame, numpy
 
 An animated disease model where parameters such as population size, percentage of population initially infected, and infection duration can be changed to observe effects. Data (e.g., percentage susceptible, infected, and recovered) is plotted on a rough live graph. 
