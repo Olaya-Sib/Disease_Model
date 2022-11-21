@@ -140,7 +140,7 @@ class Person(pygame.sprite.Sprite):
         """
         Person's stats.
         """
-
+        self.rect = pygame.Rect(1, 2, 3, 4)  # pygame requires rect for rectangular collisions; overriden
         self._infected = False  # starts False/Healthy
         self._dead = False  # starts False/Alive
         self._colour = WHITE  # starts Green/Healthy
