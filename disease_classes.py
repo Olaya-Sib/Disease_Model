@@ -6,7 +6,7 @@ POPULATION_SIZE = 200
 WIDTH = 640  # game window width
 HEIGHT = 480  # game window height
 FPS = 30  # game's speeds
-Person_Radius = 4
+PERSON_RADIUS = 4
 screen = pygame.display.set_mode((WIDTH, HEIGHT))  # set the game window
 
 RED = (255, 100, 100)
@@ -145,7 +145,7 @@ class Person(pygame.sprite.Sprite):
         self._dead = False  # starts False/Alive
         self._colour = WHITE  # starts Green/Healthy
         self._days_infected = 0  # starts not-infected
-        self._radius = Person_Radius
+        self._radius = PERSON_RADIUS
 
         """
         Movement Location 
